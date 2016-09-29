@@ -3,7 +3,7 @@
 Plugin Name: WP Developers | Liberty Alliance Radio Player
 Plugin URI: http://wpdevelopers.com
 Description: Custom popups and radio player buttons by WP Developers. Use shortcode [laradio]. Also allows shortcodes in default text widget.
-Version: 1.0.1
+Version: 1.0.2
 Author: Tyler Johnson
 Author URI: http://tylerjohnsondesign.com/
 Copyright: Tyler Johnson
@@ -38,7 +38,7 @@ add_filter('widget_text', 'do_shortcode');
 Create Shortcode
 **/
 function wpdev_radio_shortcode() {
-  $output = '<div id="wpdevradiobtn" style="cursor: pointer;"><img src="' . plugin_dir_url(__FILE__) . 'inc/radio-button.gif" alt="Liberty Alliance Radio"/></div>';
+  $output = '<div id="wpdevradiobtn" style="cursor: pointer;"><img src="' . plugin_dir_url(__FILE__) . 'inc/laradio_animated.gif" alt="Liberty Alliance Radio"/></div>';
 
   return $output;
 }

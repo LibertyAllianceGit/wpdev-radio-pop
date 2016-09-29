@@ -26,6 +26,9 @@ Creates a shortcode and loads javascript for a Liberty Alliance radio popup play
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated gif to higher quality.
+
 = 1.0.1 =
 * Added GitHub updater.
 
