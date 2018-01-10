@@ -26,6 +26,12 @@ Creates a shortcode and loads javascript for a Liberty Alliance radio popup play
 
 == Changelog ==
 
+= 1.0.4 =
+* Bug fix.
+
+= 1.0.3 =
+* PHP7 compatibility fix.
+
 = 1.0.2 =
 * Updated gif to higher quality.
 
